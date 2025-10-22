@@ -18,7 +18,8 @@
             "pages": [
               "index",
               "handover/contacts",
-              "handover/schedule"
+              "handover/schedule",
+              "handover/preparation"
             ]
           },
           {
