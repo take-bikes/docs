@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint スターターキット",
+  "name": "大祭引継ぎ資料",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "引継ぎ資料",
+        "tab": "引継ぎ資料（第63回千葉大祭）",
         "groups": [
           {
             "group": "概要",
@@ -34,23 +34,20 @@
             "pages": [
               "handover/system-overview"
             ]
+          },
+          {
+            "group": "企画（CUCC）",
+            "pages": [
+              "projects/overview",
+              "projects/tent",
+              "projects/free-ride"
+            ]
           }
         ]
       }
     ],
     "global": {
-      "anchors": [
-        {
-          "anchor": "ドキュメント",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "ブログ",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
+      "anchors": []
     }
   },
   "logo": {
