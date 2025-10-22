@@ -11,58 +11,28 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "ガイド",
+        "tab": "引継ぎ資料",
         "groups": [
           {
-            "group": "はじめに",
+            "group": "概要",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "handover/contacts",
+              "handover/schedule"
             ]
           },
           {
-            "group": "カスタマイズ",
+            "group": "運用・手順",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "handover/runbook",
+              "handover/checklist",
+              "handover/faq"
             ]
           },
           {
-            "group": "コンテンツの作成",
+            "group": "システム情報",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AIツール",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "APIリファレンス",
-        "groups": [
-          {
-            "group": "APIドキュメント",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "エンドポイント例",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "handover/system-overview"
             ]
           }
         ]
