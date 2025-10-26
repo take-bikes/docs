@@ -24,7 +24,6 @@
           {
             "group": "テント企画",
             "pages": [
-              "projects/overview",
               "projects/tent",
               "handover/preparation",
               "handover/prep2"
