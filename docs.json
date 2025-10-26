@@ -18,16 +18,23 @@
             "pages": [
               "index",
               "handover/contacts",
-              "handover/schedule",
-              "handover/preparation"
+              "handover/schedule"
             ]
           },
           {
-            "group": "運用・手順",
+            "group": "テント企画",
             "pages": [
-              "handover/runbook",
-              "handover/checklist",
-              "handover/faq"
+              "projects/overview",
+              "projects/tent",
+              "handover/preparation",
+              "handover/prep2"
+            ]
+          },
+          {
+            "group": "自由企画",
+            "pages": [
+              "projects/overview",
+              "projects/free-ride"
             ]
           },
           {
@@ -37,11 +44,11 @@
             ]
           },
           {
-            "group": "企画（CUCC）",
+            "group": "運用・手順",
             "pages": [
-              "projects/overview",
-              "projects/tent",
-              "projects/free-ride"
+              "handover/runbook",
+              "handover/checklist",
+              "handover/faq"
             ]
           }
         ]
