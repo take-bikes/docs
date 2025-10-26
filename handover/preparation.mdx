@@ -1,165 +1,109 @@
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
-import { Steps, Step } from "@/components/ui/steps";
-import { Info, Warning, Note } from "@/components/ui/alert";
-import { Columns } from "@/components/ui/columns";
-import { FileText, ClipboardList, CalendarDays, Users, Fire, Table, CheckCircle } from "lucide-react";
+---
+title: "第63回 千葉大祭 準備手順ガイド"
+description: "千葉大学サイクリング部向け｜企画準備と手続きの流れ"
+---
 
-export default function ChibadaisaiPreparation() {
-  return (
-    <div className="container mx-auto px-6 py-10 space-y-10">
-      <header className="text-center space-y-3">
-        <h1 className="text-4xl font-bold tracking-tight">第63回千葉大祭 準備手順詳細</h1>
-        <p className="text-gray-500">千葉大学サイクリング部の大学祭参加に向けた全スケジュールと書類一覧</p>
-      </header>
+## 第63回 千葉大祭 準備手順ガイド
 
-      <Tabs defaultValue="schedule" className="w-full">
-        <TabsList className="flex justify-center mb-8">
-          <TabsTrigger value="schedule">スケジュール</TabsTrigger>
-          <TabsTrigger value="documents">提出書類</TabsTrigger>
-          <TabsTrigger value="checklist">チェックリスト</TabsTrigger>
-          <TabsTrigger value="contact">連絡先</TabsTrigger>
-        </TabsList>
+千葉大学サイクリング部向け｜企画準備と手続きの流れ
 
-        {/* スケジュールタブ */}
-        <TabsContent value="schedule">
-          <div className="grid md:grid-cols-2 gap-6">
-            <Card>
-              <CardHeader>
-                <CardTitle>5月：参加登録・企画決定</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-3">
-                <ul className="list-disc pl-5 space-y-1">
-                  <li>企画担当者の決定（テント企画・自由企画）</li>
-                  <li>参加登録フォーム回答（Googleフォーム）</li>
-                  <li>企画案の募集・決定（6月部会で承認）</li>
-                </ul>
-              </CardContent>
-            </Card>
+## 準備スケジュール
 
-            <Card>
-              <CardHeader>
-                <CardTitle>6〜7月：書類提出・機材申請</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-3">
-                <ul className="list-disc pl-5 space-y-1">
-                  <li>企画書・誓約書・参加者リスト提出</li>
-                  <li>ガソリン・発電機等使用申請</li>
-                  <li>第1・2回企画説明会への参加</li>
-                </ul>
-              </CardContent>
-            </Card>
+| 月 | 主なタスク |
+|----|--------------|
+| 5月 | 参加登録フォーム回答 / 企画案検討・決定 / 責任者・副責任者の決定 |
+| 6月 | 企画概案調査フォーム回答 / 誓約書・企画書・食材リスト提出 |
+| 7月 | 第1回企画説明会 / 危険物・レンタル物品申請 |
+| 8月 | 不備書類の再提出 / レンタル物品説明会参加 |
+| 10月 | 最終説明会参加 / 検便・講習関係完了 |
 
-            <Card>
-              <CardHeader>
-                <CardTitle>8月：確認・修正</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <Warning>不備のあった書類の再提出・最終確認</Warning>
-              </CardContent>
-            </Card>
+## 各月の詳細手順
 
-            <Card>
-              <CardHeader>
-                <CardTitle>10月：講習・最終準備</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-3">
-                <ul className="list-disc pl-5 space-y-1">
-                  <li>検便提出・衛生講習・防火講習</li>
-                  <li>第3・4回企画説明会への参加</li>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
-        </TabsContent>
+<Tabs>
+<Tab title="5月：参加登録・企画決定">
+<AccordionGroup>
+  <Accordion title="企画担当者の決定">
+    部会で企画担当者を決定。テント企画・自由企画ともに2年生2名ずつが担当。
+  </Accordion>
+  
+  <Accordion title="参加登録">
+    実行委員会配布のGoogleフォームに回答し、団体情報・連絡先・企画概要を入力。
+  </Accordion>
+  
+  <Accordion title="企画案の決定">
+    前年の事例を参考に、部会で企画案を検討し決定。不決の場合は責任者判断。
+  </Accordion>
+</AccordionGroup>
+</Tab>
 
-        {/* 提出書類タブ */}
-        <TabsContent value="documents">
-          <div className="grid md:grid-cols-3 gap-6">
-            <Card>
-              <CardHeader className="flex items-center gap-2">
-                <FileText className="w-5 h-5" />
-                <CardTitle>誓約書・企画書</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p>顧問・責任者の署名捺印必須。PDF形式で提出。</p>
-                <a href="https://drive.google.com/file/d/1K7TmodZwRUjUfzJFLjo-WtnEtsxs7qCk/view?usp=sharing" className="text-blue-500 underline">誓約書を見る</a>
-              </CardContent>
-            </Card>
+<Tab title="6月：書類提出">
+<AccordionGroup>
+  <Accordion title="企画概案調査">
+    6月15日までにGoogleフォームで回答。内容：機材・物品、安全対策、収支見込みなど。
+  </Accordion>
+  
+  <Accordion title="誓約書提出">
+    顧問・企画責任者の署名捺印必須。PDF形式で事務局に提出。
+  </Accordion>
+  
+  <Accordion title="企画書・食材・参加者リスト">
+    7月末までにすべての書類を提出。アレルゲン情報は必ず明記。
+  </Accordion>
+</AccordionGroup>
+</Tab>
 
-            <Card>
-              <CardHeader className="flex items-center gap-2">
-                <ClipboardList className="w-5 h-5" />
-                <CardTitle>食材・参加者リスト</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="list-disc pl-5 space-y-1">
-                  <li>アレルゲン表示必須</li>
-                  <li>Googleスプレッドシートで共有</li>
-                </ul>
-                <a href="https://docs.google.com/spreadsheets/d/1uypjhRGhnXGKCJBnMq-owC92D2VmjHaURiGDAILHldU/view" className="text-blue-500 underline">食材リスト</a>
-              </CardContent>
-            </Card>
+<Tab title="7月：物品申請">
+<AccordionGroup>
+  <Accordion title="危険物・発電機使用申請">
+    使用申請書、誓約書、安全対策書が必要。講習受講必須。
+  </Accordion>
+  
+  <Accordion title="レンタル物品申請">
+    Googleフォームでテーブル・椅子・テントなどを申請（先着順）。
+  </Accordion>
+  
+  <Accordion title="第1回企画説明会">
+    全体スケジュールの確認、書類提出の注意事項、質疑応答を行う。
+  </Accordion>
+</AccordionGroup>
+</Tab>
 
-            <Card>
-              <CardHeader className="flex items-center gap-2">
-                <CalendarDays className="w-5 h-5" />
-                <CardTitle>説明会・講習会</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p>説明会・講習日程は大学祭実行委員会からの案内に従う。</p>
-              </CardContent>
-            </Card>
-          </div>
-        </TabsContent>
+<Tab title="8月：再提出・確認">
+<Warning>
+  不備があった書類の修正版を8/15までに提出。追加資料の確認も行う。
+</Warning>
 
-        {/* チェックリストタブ */}
-        <TabsContent value="checklist">
-          <Card>
-            <CardHeader className="flex items-center gap-2">
-              <CheckCircle className="w-5 h-5" />
-              <CardTitle>月別チェックリスト</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <Steps>
-                <Step title="5月">参加登録・企画決定・責任者確定</Step>
-                <Step title="6月">企画書・誓約書・食材/参加者リスト提出</Step>
-                <Step title="7月">機材・物品申請、説明会参加</Step>
-                <Step title="8月">書類修正・再提出</Step>
-                <Step title="10月">講習会・検便・最終確認</Step>
-              </Steps>
-            </CardContent>
-          </Card>
-        </TabsContent>
+<AccordionGroup>
+  <Accordion title="書類再提出">
+    指摘事項を修正し、追加書類も提出する。
+  </Accordion>
+  
+  <Accordion title="レンタル物品説明会">
+    使用方法の実演、注意事項の確認、責任分担の明確化を行う。
+  </Accordion>
+</AccordionGroup>
+</Tab>
 
-        {/* 連絡先タブ */}
-        <TabsContent value="contact">
-          <Columns cols={2}>
-            <Card>
-              <CardHeader>
-                <CardTitle>大学祭実行委員会</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p>メール：実行委員会メールアドレス</p>
-                <p>電話：実行委員会電話番号</p>
-                <p>事務局：所在地</p>
-              </CardContent>
-            </Card>
+<Tab title="10月：最終準備">
+<AccordionGroup>
+  <Accordion title="衛生・防火講習会">
+    食品衛生、防火対策、消火実習を含む。全員参加が必須。
+  </Accordion>
+  
+  <Accordion title="最終説明会・検便">
+    各種説明会への参加、検便提出、健康管理確認を実施。
+  </Accordion>
+  
+  <Accordion title="集金・検便回収">
+    参加費の集金、検便キット配布・回収、健康管理の確認を行う。
+  </Accordion>
+</AccordionGroup>
+</Tab>
+</Tabs>
 
-            <Card>
-              <CardHeader>
-                <CardTitle>CUCC内部連絡</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p>代表：代表者名・連絡先</p>
-                <p>企画責任者：責任者名・連絡先</p>
-                <p>副責任者：副責任者名・連絡先</p>
-              </CardContent>
-            </Card>
-          </Columns>
-        </TabsContent>
-      </Tabs>
-    </div>
-  );
-}
+## 連絡先・問い合わせ
+
+| 区分 | 内容 |
+|------|------|
+| 大学祭実行委員会 | メール・電話・事務局所在地を記載 |
+| CUCC内部連絡 | 代表・企画責任者・副責任者の連絡先 |
