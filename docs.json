@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "大祭引継ぎ資料",
+  "name": "サイクリング部 大学祭運営マニュアル",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,44 +11,42 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "引継ぎ資料（第63回千葉大祭）",
+        "tab": "大学祭運営マニュアル",
         "groups": [
           {
-            "group": "概要",
+            "group": "はじめに",
             "pages": [
-              "index",
-              "handover/contacts",
-              "handover/schedule"
+              "index"
             ]
           },
           {
-            "group": "テント企画",
+            "group": "プロジェクト管理",
             "pages": [
-              "projects/overview_tent",
-              "projects/tent",
-              "handover/preparation",
-              "handover/prep2"
+              "management/schedule",
+              "management/finance"
             ]
           },
           {
-            "group": "自由企画",
+            "group": "【企画A】テント・飲食",
             "pages": [
-              "projects/overview",
-              "projects/free-ride"
+              "food/concept",
+              "food/operation",
+              "food/safety"
             ]
           },
           {
-            "group": "システム情報",
+            "group": "【企画B】輪タク・体験",
             "pages": [
-              "handover/system-overview"
+              "rintaku/specs",
+              "rintaku/route",
+              "rintaku/safety"
             ]
           },
           {
-            "group": "運用・手順",
+            "group": "当日運営",
             "pages": [
-              "handover/runbook",
-              "handover/checklist",
-              "handover/faq"
+              "operation/shift",
+              "operation/trouble"
             ]
           }
         ]
@@ -66,7 +64,7 @@
     "links": [
       {
         "label": "サポート",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:cycling-club@example.com"
       }
     ],
     "primary": {
@@ -77,21 +75,19 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/cycling-club"
     }
   }
 }
