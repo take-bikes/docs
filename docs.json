@@ -16,26 +16,41 @@
           {
             "group": "はじめに",
             "pages": [
-              "index"
+              "index",
+              "introduction/organization"
             ]
           },
           {
-            "group": "プロジェクト管理",
+            "group": "重要ルール（必読）",
             "pages": [
-              "management/schedule",
+              "rules/fire",
+              "rules/hygiene"
+            ]
+          },
+          {
+            "group": "全体スケジュール・申請",
+            "pages": [
+              "management/schedule"
+            ]
+          },
+          {
+            "group": "会計・予算管理",
+            "pages": [
               "management/finance"
             ]
           },
           {
-            "group": "【企画A】テント・飲食",
+            "group": "【企画A】テント企画（飲食）",
             "pages": [
               "food/concept",
+              "food/menu_regulation",
               "food/operation",
+              "food/equipment",
               "food/safety"
             ]
           },
           {
-            "group": "【企画B】輪タク・体験",
+            "group": "【企画B】自由企画（輪タク）",
             "pages": [
               "rintaku/specs",
               "rintaku/route",
@@ -43,10 +58,22 @@
             ]
           },
           {
-            "group": "当日運営",
+            "group": "当日運営マニュアル",
             "pages": [
               "operation/shift",
               "operation/trouble"
+            ]
+          },
+          {
+            "group": "広報・デザイン",
+            "pages": [
+              "promotion/design"
+            ]
+          },
+          {
+            "group": "反省・申し送り",
+            "pages": [
+              "feedback/reflection"
             ]
           }
         ]
