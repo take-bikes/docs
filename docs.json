@@ -30,7 +30,8 @@
           {
             "group": "全体スケジュール・申請",
             "pages": [
-              "management/schedule"
+              "management/schedule",
+              "management/logistics"
             ]
           },
           {
@@ -53,6 +54,7 @@
             "group": "【企画B】自由企画（輪タク）",
             "pages": [
               "rintaku/specs",
+              "rintaku/rules",
               "rintaku/route",
               "rintaku/safety"
             ]
