@@ -41,9 +41,10 @@
             ]
           },
           {
-            "group": "【企画A】テント企画（飲食）",
+            "group": "テント企画（飲食）",
             "pages": [
               "food/concept",
+              "food/schedule",
               "food/menu_regulation",
               "food/operation",
               "food/equipment",
@@ -51,9 +52,10 @@
             ]
           },
           {
-            "group": "【企画B】自由企画（輪タク）",
+            "group": "自由企画（輪タク）",
             "pages": [
               "rintaku/specs",
+              "rintaku/schedule",
               "rintaku/rules",
               "rintaku/route",
               "rintaku/safety"
