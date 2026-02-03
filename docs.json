@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "大学祭運営マニュアル",
+        "tab": "概要・ルール",
         "groups": [
           {
             "group": "はじめに",
@@ -26,20 +26,12 @@
               "rules/fire",
               "rules/hygiene"
             ]
-          },
-          {
-            "group": "全体スケジュール・申請",
-            "pages": [
-              "management/schedule",
-              "management/logistics"
-            ]
-          },
-          {
-            "group": "会計・予算管理",
-            "pages": [
-              "management/finance"
-            ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "企画マニュアル",
+        "groups": [
           {
             "group": "テント企画（飲食）",
             "pages": [
@@ -62,16 +54,34 @@
             ]
           },
           {
+            "group": "広報・デザイン",
+            "pages": [
+              "promotion/design"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "事務・運営",
+        "groups": [
+          {
+            "group": "全体スケジュール・申請",
+            "pages": [
+              "management/schedule",
+              "management/logistics"
+            ]
+          },
+          {
+            "group": "会計・予算管理",
+            "pages": [
+              "management/finance"
+            ]
+          },
+          {
             "group": "当日運営マニュアル",
             "pages": [
               "operation/shift",
               "operation/trouble"
-            ]
-          },
-          {
-            "group": "広報・デザイン",
-            "pages": [
-              "promotion/design"
             ]
           },
           {
