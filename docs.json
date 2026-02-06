@@ -39,6 +39,7 @@
             "pages": [
               "rintaku/specs",
               "rintaku/schedule",
+              "rintaku/budget",
               "rintaku/rules",
               "rintaku/route",
               "rintaku/safety"
