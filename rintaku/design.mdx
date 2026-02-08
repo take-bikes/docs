@@ -38,9 +38,9 @@ icon: 'pen-ruler'
       </Card>
     </CardGroup>
 
-    <Carousel>
+    <div className="carousel">
       <img src="/images/rintaku_designs/rintaku2025.jpg" alt="2025年度デザイン" />
-    </Carousel>
+    </div>
   </Tab>
   <Tab title="2012年度">
     <CardGroup cols={2}>
@@ -51,10 +51,10 @@ icon: 'pen-ruler'
         ???
       </Card>
     </CardGroup>
-    <Carousel>
+    <div className="carousel">
       <img src="/images/rintaku_designs/rintaku2012.jpg" alt="2012年度デザイン" />
       <img src="/images/rintaku_designs/スヌーピー.jpeg" alt="2012年度デザイン" />
-    </Carousel>
+    </div>
    </Tab> 
   <Tab title="2010年度">
     <CardGroup cols={2}>
@@ -65,10 +65,10 @@ icon: 'pen-ruler'
         ???
       </Card>
     </CardGroup>
-    <Carousel>
+    <div className="carousel">
       <img src="/images/rintaku_designs/rintaku2010.jpg" alt="2010年度デザイン" />
       <img src="/images/rintaku_designs/rintaku2010_2.jpg" alt="2010年度デザイン" />
-    </Carousel>
+    </div>
   </Tab>
 </Tabs>
 
@@ -100,8 +100,43 @@ icon: 'pen-ruler'
 
 ## リヤカーの特徴
 
-### 連結部分
+### 連結機構
 
+<Warning>
+  連結部は走行中に最も負荷がかかる部分です。
+  毎回の運行前に必ず点検してください。
+</Warning>
+
+#### 連結方式
+
+- **ヒッチタイプ**: ボール式ヒッチカプラー
+- **取り付け位置**: 自転車リアアクスル
+- **安全装置**: 脱落防止ピン + セーフティチェーン
+
+#### 連結手順
+
+<Steps>
+  <Step title="自転車を安定させる">
+    自転車を平らな場所に置き、スタンドで安定させる。
+  </Step>
+  
+  <Step title="ヒッチを接続する">
+    客車のカプラーをヒッチボールに嵌める。
+    「カチッ」と音がするまで押し込む。
+  </Step>
+  
+  <Step title="ピンで固定する">
+    脱落防止ピンを挿入し、ロックする。
+  </Step>
+  
+  <Step title="セーフティチェーンを接続">
+    万が一ヒッチが外れた場合の保険として、セーフティチェーンを自転車フレームに接続する。
+  </Step>
+  
+  <Step title="動作確認">
+    左右に軽く揺らし、ガタつきがないか確認する。
+  </Step>
+</Steps>
 
 ### タイヤ
 
@@ -109,6 +144,45 @@ icon: 'pen-ruler'
 
 リヤカーにブレーキは搭載せず、牽引車のブレーキのみで制御します。
 そのため、連結部分に負荷がかかりやすいです。
+
+## 整備基準
+
+### 日次点検（運行前）
+
+<Check>
+  毎日の運行開始前に、以下の項目を点検してください。
+  点検結果は記録簿に記入すること。
+</Check>
+
+| 点検項目 | 確認内容 | ✓ |
+|----------|----------|---|
+| タイヤ空気圧 | 規定値（前後とも） | |
+| ブレーキ効き | 十分な制動力 | |
+| 連結部 | ガタつき・緩みなし | |
+| チェーン | たるみ・錆なし | |
+| ライト・反射板 | 点灯・視認性確認 | |
+| シートベルト | 破損・ロック確認 | |
+
+### 週次整備
+
+| 整備項目 | 内容 |
+|----------|------|
+| チェーン注油 | 専用オイルで注油 |
+| ボルト増し締め | 各部のボルトを確認 |
+| 清掃 | 車体全体の洗浄 |
+
+### 月次整備
+
+| 整備項目 | 内容 |
+|----------|------|
+| ブレーキシュー点検 | 摩耗状態の確認、必要なら交換 |
+| タイヤ点検 | 溝の深さ、ひび割れ確認 |
+| ベアリング点検 | 異音・ガタの確認 |
+
+<Warning>
+  整備に不安がある場合は、必ず経験者または専門店に相談してください。
+</Warning>
+
 
 <Note>
   製作期間：約3ヶ月
