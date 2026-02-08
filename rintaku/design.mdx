@@ -103,7 +103,7 @@ icon: 'pen-ruler'
 ## リヤカーの特徴
 
 <AccordionGroup>
-  <Accordion title="連結機構 (Coupling Mechanism)" icon="link" defaultOpen={true}>
+  <Accordion title="連結機構" icon="link" defaultOpen={true}>
     <Warning>
       連結部は走行中に最も負荷がかかる部分です。**毎回の運行前に必ず点検**してください。
     </Warning>
@@ -114,36 +114,26 @@ icon: 'pen-ruler'
       - **安全装置**: 脱落防止ピン + セーフティチェーン
     </Card>
 
-    <br />
-
-    <Steps>
-      <Step title="自転車を安定させる">
-        自転車を平らな場所に置き、スタンドで安定させます。
-      </Step>
-      <Step title="ヒッチを接続する">
-        客車のカプラーをヒッチボールに嵌め、「カチッ」と音がするまで押し込みます。
-      </Step>
-      <Step title="ピンで固定する">
-        脱落防止ピンを挿入し、確実にロックします。
-      </Step>
-      <Step title="セーフティチェーンを接続">
-        ヒッチ脱落時の保険として、チェーンを自転車フレームに接続します。
-      </Step>
-      <Step title="動作確認">
-        左右に軽く揺らし、ガタつきがないか確認します。
-      </Step>
-    </Steps>
   </Accordion>
 
-  <Accordion title="ブレーキ・タイヤ (Brake & Tires)" icon="truck-ramp-box">
+  <Accordion title="車体">
+  　| 項目 | 仕様 |
+    |------|------|
+    | 全長 | 2200mm |
+    | 全幅 | 1230mm |
+    | 全高 | 850mm |
+    | 床面高 | 350mm |
+    | 最大積載重量 | 350kg |
+    | 車輪 | 26インチ |
+    <Card title="リヤカー基礎図面 (PDF)" icon="file-pdf" href="https://drive.google.com/file/d/1AJK20LYWfVkGv-nL4iu4qT9QYhQdyqgw/view?usp=sharing">
+      クリックしてPDFを開く
+    </Card>
+  </Accordion>
+  <Accordion title="ブレーキ" icon="truck-ramp-box">
     <CardGroup cols={2}>
       <Card title="ブレーキシステム" icon="brake-warning">
         リヤカー本体にブレーキは搭載されていません。
         減速・停止は全て**牽引車（自転車）のブレーキ**で行います。
-      </Card>
-      <Card title="タイヤ仕様" icon="tire">
-        振動吸収性の高い空気入りタイヤを使用。
-        パンク防止のため、適正空気圧の維持が重要です。
       </Card>
     </CardGroup>
     
