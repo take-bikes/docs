@@ -26,25 +26,51 @@ icon: 'pen-ruler'
 </CardGroup>
 
 ### 過去のデザイン
-<AccordionGroup>
-  <Accordion title="2025年度">
-    |デザインコンセプト |にし |
-    | デザイン決定 | 9月中旬（3ヶ月前） ※遅い|
-    ![2025年度デザイン](/images/rintaku2025.jpg)
-  </Accordion>
-  <Accordion title="2012年度">
-    |デザインコンセプト |  |
-    | デザイン決定 | ???|
-    ![2012年度デザイン1](/images/rintaku2012.jpg)
-    ![2012年度デザイン2](/images/スヌーピー.jpeg)
-  </Accordion>
-  <Accordion title="2010年度">
-    |デザインコンセプト |  |
-    | デザイン決定 | ???|
-    ![2010年度デザイン1](/images/rintaku2010.jpg)
-    ![2010年度デザイン2](/images/rintaku2010_2.jpg)
-  </Accordion>
-</AccordionGroup>
+<Tabs>
+  <Tab title="2025年度">
+    <CardGroup cols={2}>
+      <Card title="デザインコンセプト" icon="palette">
+        にし
+      </Card>
+      <Card title="デザイン決定" icon="calendar-days">
+        9月中旬（3ヶ月前）
+        <p className="text-sm text-red-500 font-semibold mt-1">※遅い</p>
+      </Card>
+    </CardGroup>
+
+    <Frame>
+      <img src="/images/rintaku_designs/rintaku2025.jpg" alt="2025年度デザイン" />
+    </Frame>
+  </Tab>
+  <Tab title="2012年度">
+    <CardGroup cols={2}>
+      <Card title="デザインコンセプト" icon="palette">
+        スヌーピー
+      </Card>
+      <Card title="デザイン決定" icon="calendar-days">
+        ???
+      </Card>
+    </CardGroup>
+    <Frame>
+      <img src="/images/rintaku_designs/rintaku2012.jpg" alt="2012年度デザイン" />
+      <img src="/images/rintaku_designs/スヌーピー.jpeg" alt="2012年度デザイン" />
+    </Frame>
+   </Tab> 
+  <Tab title="2010年度">
+    <CardGroup cols={2}>
+      <Card title="デザインコンセプト" icon="palette">
+        チーバくん
+      </Card>
+      <Card title="デザイン決定" icon="calendar-days">
+        ???
+      </Card>
+    </CardGroup>
+    <Frame>
+      <img src="/images/rintaku_designs/rintaku2010.jpg" alt="2010年度デザイン" />
+      <img src="/images/rintaku_designs/rintaku2010_2.jpg" alt="2010年度デザイン" />
+    </Frame>
+  </Tab>
+</Tabs>
 
 
 ## 製作プロセス
